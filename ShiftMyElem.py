@@ -4,7 +4,7 @@ import mymodule.DataCollector as dcollector
 import mymodule.ValueShifter as vshifter
 
 
-def main():
+def main(argc, **argv):
     temp_arr    =   dcollector.CheckMyData()
     n           =   temp_arr[0]
     k           =   temp_arr[1]

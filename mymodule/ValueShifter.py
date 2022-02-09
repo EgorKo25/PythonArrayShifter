@@ -2,7 +2,7 @@ import  numpy as np
 from numpy import random, rot90
 
 
-def ShiftMyValue(array, shift_value, n, k):
+def ShiftMyValue(array, shift_value):
 
     vector = []
     for i in array:
@@ -29,5 +29,8 @@ def ShiftMyValue(array, shift_value, n, k):
     return array
 
 
-def main():
-    ShiftMyValue()
+def main(array, shift_value):
+    
+    move_array = ShiftMyValue(array, shift_value)
+
+    return move_array
