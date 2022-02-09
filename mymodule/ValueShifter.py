@@ -19,9 +19,6 @@ def ShiftMyValue(array, shift_value):
         vector = vector[len(array[0])-1:-1]
         array = rot90(array).tolist()
 
-    for i in array:
-        print(i)
-    print("\n\n")
     return array
 
 
